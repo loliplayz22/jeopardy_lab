@@ -1,9 +1,9 @@
-##### TRIVIA (FAMILY-DAY) LAB
+###### TRIVIA (FAMILY-DAY) LAB
 is a question-and-answer game built using Python and Flask. The goal of the project is to create an interactive game that challenges users with trivia questions, checks their answers, and keeps track of scores in a fun and easy-to-use format.
 
 ---
 
-## 1. WHAT THE PROGRAM DOES
+### 1. WHAT THE PROGRAM DOES
 
 TRIVIA is a terminal or web-based application that:
 - retrieves users and their names
@@ -15,7 +15,7 @@ TRIVIA is a terminal or web-based application that:
 
 
 
-## 2. All trivia content (questions, answers, categories, and point values) is stored in a separate JSON file. 
+### 2. All trivia content (questions, answers, categories, and point values) is stored in a separate JSON file. 
 
 # Each question in the JSON file includes:
 - A unique ID
@@ -50,5 +50,5 @@ TRIVIA is a terminal or web-based application that:
 - Creates src/leaderboard.py to sort and display scores.
 - Makes sure everything is working and the leaderboard works
 
-## 4. Project Structure
+### 4. Project Structure
 
