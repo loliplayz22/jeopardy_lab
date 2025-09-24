@@ -1,5 +1,5 @@
 ##### TRIVIA (FAMILY-DAY) LAB
-## is a question-and-answer game built using Python and Flask. The goal of the project is to create an interactive game that challenges users with trivia questions, checks their answers, and keeps track of scores in a fun and easy-to-use format.
+is a question-and-answer game built using Python and Flask. The goal of the project is to create an interactive game that challenges users with trivia questions, checks their answers, and keeps track of scores in a fun and easy-to-use format.
 
 ---
 
