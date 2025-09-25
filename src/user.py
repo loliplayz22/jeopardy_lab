@@ -56,7 +56,7 @@ def save_users_to_json():
         row ["level"] = level
         row ["category"] = category or ""
         row.append(row)
-# Write back the user daya from user_data.json
+# Write back the user data from user_data.json
     with open (user_data_path, "r", encoding = "utf-8")as f: 
         return json.dump(rows, f, indent=3)
 
