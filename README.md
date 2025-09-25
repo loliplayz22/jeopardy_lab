@@ -41,14 +41,6 @@ TRIVIA is a terminal or web-based application that:
 - Handles how rounds are played, asking questions, and updating points.
 - Connects trivia data and system so the game works smoothly
 
-24/sep/2023
-wrote the code for trivia.py with functions like
-def choose_level_category
-def ask_questions
-def play_round 
-and many many more.
-it works 
-i think
 
 
 # Person 4 (Mia): Imports into main file and creates the leaderboard.py file 
@@ -76,6 +68,10 @@ project/
 
 -Kimberly
 
-Finished JSON file which contains three levels, easy, hard and medium. Includes two category of questions, animals and scince. I set the input option as a, b, c, d. Tomorrow I will work with Loli to make sure that the JSON file can be successfully imported and incorporated with the program .py
+Finished JSON file which contains three levels, easy, hard and medium. Includes two category of questions, animals and scince. I set the input option as a, b, c, d. Tomorrow I will work with Loli to make sure that the JSON file can be successfully imported and incorporated with the trivia.py
+
+Loli 24/sep/2023
+wrote the code for trivia.py with functions like def choose_level_category def ask_questionsdef play_round and many many more.it works 
+i think. Met with all teamates and ran main.py and it's srarted to work.
 
 
