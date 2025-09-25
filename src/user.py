@@ -9,7 +9,7 @@ class User:
         self.kids_name = kids_name.strip()
         self.points = 0
     
-    def full_user_name (self):
+    def full_name (self):
         return f"{self.first_name} {self.last_name}"
     
     def save_user_to_dictonary (self):
@@ -24,7 +24,7 @@ class User:
 def welcome_user ():
     print ("———Welcome to the Trivia Game!———–")
     while True:
-        ans = input ("Are you reading for Trivia? (y/n)").strip().lower()
+        ans = input ("Are you ready for Trivia? (y/n) ").strip().lower()
         if ans in ("y", "yes"):
             return True
         elif ans in ("n", "non"):
@@ -33,15 +33,32 @@ def welcome_user ():
             print ("Please type yes or no.")
 
 # Collecting all the players
-def register_users():
+#def register_users():
     users = []
-    print ("Enter your information")
+    print ("Enter your information as a player. When you're finished adding players, type 'Done' for fist name. ")
     while True:
         first_name = input ("First name: ").strip()
+        if first_name.lower() == "done":
+            break
         last_name = input ("Last name: ")
         kids = input ("Kids name: ")
         print (f"{first_name} {last_name}, welcome to Trivia!")
     return users
+
+def register_users():
+    users = []
+    print("\nEnter player info. Type 'done' for first name to stop adding players.")
+    while True:
+        first_name = input("First name: ").strip()
+        if first_name.lower() == "done":
+            break
+        last_name = input("Last name: ").strip()
+        kids_name = input("Kids name (optional): ").strip()
+        users.append(User(first_name, last_name, kids_name))
+        new_user = User(first_name, last_name, kids_name)
+        users.append(new_user)
+        print(f"{first_name} {last_name}, welcome to Trivia!\n")
+    return users 
 
 # Save user data to user_data.json
 def save_users_to_json():
