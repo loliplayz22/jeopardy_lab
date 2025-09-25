@@ -8,7 +8,7 @@ trivia_data_path = os.path.join(os.path.dirname(__file__), "..", "data", "trivia
 
 def load_trivia():
 
-    print("DEBUG: loading trivia from:", os.path.abspath(trivia_data_path))
+    print("Loading trivia from:", os.path.abspath(trivia_data_path))
 
     try:
 
@@ -16,7 +16,7 @@ def load_trivia():
 
             data = json.load(f)
 
-        print("DEBUG: top-level keys:", list(data.keys()))
+        print("Top-level keys:", list(data.keys()))
 
         return data
 
