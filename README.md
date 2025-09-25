@@ -66,6 +66,6 @@ project/
 
 -Kimberly
 
-Finished JSON file which contains three levels, two category of questions and set the input option as a, b, c, d. Tomorrow I will work with Loli to make sure that the JSON file can be successfully imported and incorporated with the program .py
+Finished JSON file which contains three levels, easy, hard and medium. Includes two category of questions, animals and scince. I set the input option as a, b, c, d. Tomorrow I will work with Loli to make sure that the JSON file can be successfully imported and incorporated with the program .py
 
 
