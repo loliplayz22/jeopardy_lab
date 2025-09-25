@@ -66,14 +66,20 @@ project/
 
 ### 5. Daily work flow
 
--Kimberly
+# Kimberly (Person 1)
+09/24: Finished JSON file, which contains three levels: easy, hard, and medium. Includes two categories of questions, animals and science. I set the input option as a, b, c, d.
 
-Finished JSON file which contains three levels, easy, hard and medium. Includes two category of questions, animals and scince. I set the input option as a, b, c, d. Tomorrow I will work with Loli to make sure that the JSON file can be successfully imported and incorporated with the trivia.py
+09/25: Work with Loli to make sure that the JSON file can be successfully imported and incorporated with the trivia.py
 
-Loli 24/sep/2023
-wrote the code for trivia.py with functions like def choose_level_category def ask_questionsdef play_round and many many more.it works 
-i think. Met with all teamates and ran main.py and it's srarted to work.
+# Grace (Person 2)
+09/24: Completed all functions in the Class user in the user.py file. Collaborated with teammates to successfully run user functions in main.py. 
+09/25: Debug to make sure user.py is successfully imported and used in all files, touch base with teammates
 
--Mia
-I developed the main.py file to integrate all game components and manage the overall flow. I also created the leaderboard.py file to calculate, sort, and display player rankings by points.
+# Loli (Person 3)
+09/24: Wrote the code for trivia.py with functions, and tested if it works with teammates
+09/25: Meet with teammates
+
+# Mia (Person 4)
+09/24: I developed the main.py file to integrate all game components and manage the overall flow. I also created the leaderboard.py file to calculate, sort, and display player rankings by points.
+09/25: Debug program with teammates
 
