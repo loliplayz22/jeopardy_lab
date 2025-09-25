@@ -36,7 +36,7 @@ def welcome_user():
             return True
         if ans in ("n", "no"):
             return False
-        print("Please type y or n.")
+        print("Please type yes or no.")
 
 def register_users():
     """Ask for players until the user types 'done' for first name."""
