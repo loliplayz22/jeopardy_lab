@@ -1,211 +1,380 @@
 {
-  "trivia_categories": [
-    {
-      "category_name": "Animals",
-      "questions": {
-        "easy": [
-          {
-            "question": "What is the largest mammal in the world?",
-            "options": ["A. Elephant", "B. Blue Whale", "C. Giraffe", "D. Polar Bear"],
-            "correct_answer": "B",
-            "points": 10
-          },
-          {
-            "question": "Which animal holds hands while sleeping to prevent them from drifting apart?",
-            "options": ["A. otters", "B. crabs", "C. humans", "D. sea urchin"],
-            "correct_answer": "A",
-            "points": 10
-          },
-          {
-            "question": "What is a baby dog called?",
-            "options": ["A. Puppy", "B. Cub", "C. Kitten", "D. Calf"],
-            "correct_answer": "A",
-            "points": 10
-          },
-          {
-            "question": "Which male animal gives birth instead of the female?",
-            "options": ["A. seahorse", "B. Dog", "C. Horse", "D. Rabbit"],
-            "correct_answer": "A",
-            "points": 10
-          },
-          {
-            "question": "Which animal only poops once a week?",
-            "options": ["A. sloths", "B. Caterpillars", "C. pigs", "D. horses"],
-            "correct_answer": "A",
-            "points": 10
-          }
-        ],
-        "medium": [
-          {
-            "question": "What is the only mammal capable of true flight?",
-            "options": ["A. Flying Squirrel", "B. Bat", "C. Colugo", "D. Penguin"],
-            "correct_answer": "B",
-            "points": 20
-          },
-          {
-            "question": "Which animal has the longest lifespan?",
-            "options": ["A. African Elephant", "B. Galapagos Tortoise", "C. Bowhead Whale", "D. Greenland Shark"],
-            "correct_answer": "D",
-            "points": 20
-          },
-          {
-            "question": "What is a group of lions called?",
-            "options": ["A. Herd", "B. Pack", "C. Pride", "D. Flock"],
-            "correct_answer": "C",
-            "points": 20
-          },
-          {
-            "question": "Which bird is known for its beautiful tail feathers that can fan out?",
-            "options": ["A. Eagle", "B. Peacock", "C. Flamingo", "D. Parrot"],
-            "correct_answer": "B",
-            "points": 20
-          },
-          {
-            "question": "What is the fastest land animal?",
-            "options": ["A. Cheetah", "B. Lion", "C. Gazelle", "D. Horse"],
-            "correct_answer": "A",
-            "points": 20
-          }
-        ],
-        "hard": [
-          {
-            "question": "What is the scientific name for the common domestic cat?",
-            "options": ["A. Felis catus", "B. Panthera leo", "C. Canis lupus", "D. Ursus arctos"],
-            "correct_answer": "A",
-            "points": 30
-          },
-          {
-            "question": "Which bird has the largest wingspan?",
-            "options": ["A. Bald Eagle", "B. Albatross", "C. Andean Condor", "D. Wandering Albatross"],
-            "correct_answer": "D",
-            "points": 30
-          },
-          {
-            "question": "How many hearts does an octopus have?",
-            "options": ["A. 1", "B. 2", "C. 3", "D. 4"],
-            "correct_answer": "C",
-            "points": 30
-          },
-          {
-            "question": "What is the only continent where giraffes live in the wild?",
-            "options": ["A. Asia", "B. Africa", "C. South America", "D. Australia"],
-            "correct_answer": "B",
-            "points": 30
-          },
-          {
-            "question": "Which marine animal has three hearts and blue blood?",
-            "options": ["A. Octopus", "B. Dolphin", "C. Shark", "D. Jellyfish"],
-            "correct_answer": "A",
-            "points": 30
-          }
-        ]
+  "easy": {
+    "Animals": [
+      {
+        "q": "What is the largest mammal in the world?",
+        "options": ["A. Elephant", "B. Blue Whale", "C. Giraffe", "D. Polar Bear"],
+        "answer": "B",
+        "points": 10
+      },
+      {
+        "q": "Which animal holds hands while sleeping to prevent them from drifting apart?",
+        "options": ["A. otters", "B. crabs", "C. humans", "D. sea urchin"],
+        "answer": "A",
+        "points": 10
+      },
+      {
+        "q": "What is a baby dog called?",
+        "options": ["A. Puppy", "B. Cub", "C. Kitten", "D. Calf"],
+        "answer": "A",
+        "points": 10
+      },
+      {
+        "q": "Which male animal gives birth instead of the female?",
+        "options": ["A. seahorse", "B. Dog", "C. Horse", "D. Rabbit"],
+        "answer": "A",
+        "points": 10
+      },
+      {
+        "q": "Which animal only poops once a week?",
+        "options": ["A. sloths", "B. Caterpillars", "C. pigs", "D. horses"],
+        "answer": "A",
+        "points": 10
+      },
+      {
+        "q": "What animal is known for having black and white stripes?",
+        "options": ["A. Zebra", "B. Tiger", "C. Dalmatian", "D. Panda"],
+        "answer": "A",
+        "points": 10
+      },
+      {
+        "q": "Which bird can mimic human speech?",
+        "options": ["A. Parrot", "B. Eagle", "C. Penguin", "D. Owl"],
+        "answer": "A",
+        "points": 10
+      },
+      {
+        "q": "What do caterpillars turn into?",
+        "options": ["A. Butterflies", "B. Frogs", "C. Birds", "D. Fish"],
+        "answer": "A",
+        "points": 10
+      },
+      {
+        "q": "Which animal is the tallest in the world?",
+        "options": ["A. Giraffe", "B. Elephant", "C. Camel", "D. Ostrich"],
+        "answer": "A",
+        "points": 10
+      },
+      {
+        "q": "What animal is known for building dams?",
+        "options": ["A. Beaver", "B. Rabbit", "C. Squirrel", "D. Ant"],
+        "answer": "A",
+        "points": 10
       }
-    },
-    {
-      "category_name": "Science",
-      "questions": {
-        "easy": [
-          {
-            "question": "What planet is known as the Red Planet?",
-            "options": ["A. Venus", "B. Mars", "C. Jupiter", "D. Saturn"],
-            "correct_answer": "B",
-            "points": 10
-          },
-          {
-            "question": "What is H2O more commonly known as?",
-            "options": ["A. Oxygen", "B. Hydrogen", "C. Water", "D. Carbon Dioxide"],
-            "correct_answer": "C",
-            "points": 10
-          },
-          {
-            "question": "What force pulls objects toward the center of the Earth?",
-            "options": ["A. Magnetism", "B. Gravity", "C. Electricity", "D. Friction"],
-            "correct_answer": "B",
-            "points": 10
-          },
-          {
-            "question": "What do plants need from the air to make their own food?",
-            "options": ["A. Oxygen", "B. Nitrogen", "C. Carbon Dioxide", "D. Hydrogen"],
-            "correct_answer": "C",
-            "points": 10
-          },
-          {
-            "question": "What's the power house of a cell?",
-            "options": ["A. mitochondria", "B. organ", "C. membrane", "D. cell wall"],
-            "correct_answer": "A",
-            "points": 10
-          }
-        ],
-        "medium": [
-          {
-            "question": "What is the chemical symbol for gold?",
-            "options": ["A. Go", "B. Gd", "C. Au", "D. Ag"],
-            "correct_answer": "C",
-            "points": 20
-          },
-          {
-            "question": "How many elements are in the periodic table?",
-            "options": ["A. 108", "B. 118", "C. 128", "D. 138"],
-            "correct_answer": "B",
-            "points": 20
-          },
-          {
-            "question": "What is the closest star to Earth?",
-            "options": ["A. Proxima Centauri", "B. Sirius", "C. Alpha Centauri", "D. The Sun"],
-            "correct_answer": "D",
-            "points": 20
-          },
-          {
-            "question": "What gas do humans breathe out that plants use?",
-            "options": ["A. Oxygen", "B. Nitrogen", "C. Carbon Dioxide", "D. Hydrogen"],
-            "correct_answer": "C",
-            "points": 20
-          },
-          {
-            "question": "What is the hardest natural substance on Earth?",
-            "options": ["A. Gold", "B. Iron", "C. Diamond", "D. Platinum"],
-            "correct_answer": "C",
-            "points": 20
-          }
-        ],
-        "hard": [
-          {
-            "question": "What is the speed of light in a vacuum?",
-            "options": ["A. 299,792,458 m/s", "B. 300,000,000 m/s", "C. 299,792 km/s", "D. 186,282 m/s"],
-            "correct_answer": "A",
-            "points": 30
-          },
-          {
-            "question": "What does DNA stand for?",
-            "options": [
-              "A. Deoxyribonucleic Acid",
-              "B. Dinucleic Acid",
-              "C. Deoxyribonucleic Anion",
-              "D. Deoxyribonucleic Atom"
-            ],
-            "correct_answer": "A",
-            "points": 30
-          },
-          {
-            "question": "What is the atomic number of carbon?",
-            "options": ["A. 6", "B. 12", "C. 14", "D. 16"],
-            "correct_answer": "A",
-            "points": 30
-          },
-          {
-            "question": "Which planet has the most moons in our solar system?",
-            "options": ["A. Jupiter", "B. Saturn", "C. Uranus", "D. Neptune"],
-            "correct_answer": "B",
-            "points": 30
-          },
-          {
-            "question": "What is the main gas that makes up the Sun?",
-            "options": ["A. Oxygen", "B. Helium", "C. Hydrogen", "D. Nitrogen"],
-            "correct_answer": "C",
-            "points": 30
-          }
-        ]
+    ],
+    "Science": [
+      {
+        "q": "What planet is known as the Red Planet?",
+        "options": ["A. Venus", "B. Mars", "C. Jupiter", "D. Saturn"],
+        "answer": "B",
+        "points": 10
+      },
+      {
+        "q": "What is H2O more commonly known as?",
+        "options": ["A. Oxygen", "B. Hydrogen", "C. Water", "D. Carbon Dioxide"],
+        "answer": "C",
+        "points": 10
+      },
+      {
+        "q": "What force pulls objects toward the center of the Earth?",
+        "options": ["A. Magnetism", "B. Gravity", "C. Electricity", "D. Friction"],
+        "answer": "B",
+        "points": 10
+      },
+      {
+        "q": "What do plants need from the air to make their own food?",
+        "options": ["A. Oxygen", "B. Nitrogen", "C. Carbon Dioxide", "D. Hydrogen"],
+        "answer": "C",
+        "points": 10
+      },
+      {
+        "q": "What's the power house of a cell?",
+        "options": ["A. mitochondria", "B. organ", "C. membrane", "D. cell wall"],
+        "answer": "A",
+        "points": 10
+      },
+      {
+        "q": "What planet is known for having rings?",
+        "options": ["A. Mars", "B. Jupiter", "C. Saturn", "D. Venus"],
+        "answer": "C",
+        "points": 10
+      },
+      {
+        "q": "What do you call a scientist who studies rocks?",
+        "options": ["A. Biologist", "B. Geologist", "C. Chemist", "D. Astronomer"],
+        "answer": "B",
+        "points": 10
+      },
+      {
+        "q": "What gas do plants release that humans breathe?",
+        "options": ["A. Carbon Dioxide", "B. Nitrogen", "C. Oxygen", "D. Hydrogen"],
+        "answer": "C",
+        "points": 10
+      },
+      {
+        "q": "How many bones are in the human body?",
+        "options": ["A. 106", "B. 206", "C. 306", "D. 406"],
+        "answer": "B",
+        "points": 10
+      },
+      {
+        "q": "What is the closest planet to the Sun?",
+        "options": ["A. Venus", "B. Earth", "C. Mars", "D. Mercury"],
+        "answer": "D",
+        "points": 10
       }
-    }
-  ]
+    ]
+  },
+  "medium": {
+    "Animals": [
+      {
+        "q": "What is the only mammal capable of true flight?",
+        "options": ["A. Flying Squirrel", "B. Bat", "C. Colugo", "D. Penguin"],
+        "answer": "B",
+        "points": 20
+      },
+      {
+        "q": "Which animal has the longest lifespan?",
+        "options": ["A. African Elephant", "B. Galapagos Tortoise", "C. Bowhead Whale", "D. Greenland Shark"],
+        "answer": "D",
+        "points": 20
+      },
+      {
+        "q": "What is a group of lions called?",
+        "options": ["A. Herd", "B. Pack", "C. Pride", "D. Flock"],
+        "answer": "C",
+        "points": 20
+      },
+      {
+        "q": "Which bird is known for its beautiful tail feathers that can fan out?",
+        "options": ["A. Eagle", "B. Peacock", "C. Flamingo", "D. Parrot"],
+        "answer": "B",
+        "points": 20
+      },
+      {
+        "q": "What is the fastest land animal?",
+        "options": ["A. Cheetah", "B. Lion", "C. Gazelle", "D. Horse"],
+        "answer": "A",
+        "points": 20
+      },
+      {
+        "q": "Which animal can change its skin color to blend in?",
+        "options": ["A. Chameleon", "B. Frog", "C. Snake", "D. Lizard"],
+        "answer": "A",
+        "points": 20
+      },
+      {
+        "q": "What is a baby kangaroo called?",
+        "options": ["A. Calf", "B. Pup", "C. Joey", "D. Cub"],
+        "answer": "C",
+        "points": 20
+      },
+      {
+        "q": "Which marine animal has eight arms?",
+        "options": ["A. Squid", "B. Octopus", "C. Starfish", "D. Jellyfish"],
+        "answer": "B",
+        "points": 20
+      },
+      {
+        "q": "What is the largest bird in the world?",
+        "options": ["A. Eagle", "B. Ostrich", "C. Albatross", "D. Emu"],
+        "answer": "B",
+        "points": 20
+      },
+      {
+        "q": "Which animal hibernates during winter?",
+        "options": ["A. Bear", "B. Deer", "C. Wolf", "D. Rabbit"],
+        "answer": "A",
+        "points": 20
+      }
+    ],
+    "Science": [
+      {
+        "q": "What is the chemical symbol for gold?",
+        "options": ["A. Go", "B. Gd", "C. Au", "D. Ag"],
+        "answer": "C",
+        "points": 20
+      },
+      {
+        "q": "How many elements are in the periodic table?",
+        "options": ["A. 108", "B. 118", "C. 128", "D. 138"],
+        "answer": "B",
+        "points": 20
+      },
+      {
+        "q": "What is the closest star to Earth?",
+        "options": ["A. Proxima Centauri", "B. Sirius", "C. Alpha Centauri", "D. The Sun"],
+        "answer": "D",
+        "points": 20
+      },
+      {
+        "q": "What gas do humans breathe out that plants use?",
+        "options": ["A. Oxygen", "B. Nitrogen", "C. Carbon Dioxide", "D. Hydrogen"],
+        "answer": "C",
+        "points": 20
+      },
+      {
+        "q": "What is the hardest natural substance on Earth?",
+        "options": ["A. Gold", "B. Iron", "C. Diamond", "D. Platinum"],
+        "answer": "C",
+        "points": 20
+      },
+      {
+        "q": "What is the main gas found in Earth's atmosphere?",
+        "options": ["A. Oxygen", "B. Carbon Dioxide", "C. Nitrogen", "D. Hydrogen"],
+        "answer": "C",
+        "points": 20
+      },
+      {
+        "q": "What planet is known as the 'Evening Star'?",
+        "options": ["A. Mars", "B. Jupiter", "C. Venus", "D. Saturn"],
+        "answer": "C",
+        "points": 20
+      },
+      {
+        "q": "What is the study of weather called?",
+        "options": ["A. Geology", "B. Meteorology", "C. Biology", "D. Astronomy"],
+        "answer": "B",
+        "points": 20
+      },
+      {
+        "q": "How many planets in our solar system have rings?",
+        "options": ["A. 1", "B. 2", "C. 3", "D. 4"],
+        "answer": "D",
+        "points": 20
+      },
+      {
+        "q": "What is the largest organ in the human body?",
+        "options": ["A. Liver", "B. Brain", "C. Skin", "D. Heart"],
+        "answer": "C",
+        "points": 20
+      }
+    ]
+  },
+  "hard": {
+    "Animals": [
+      {
+        "q": "What is the scientific name for the common domestic cat?",
+        "options": ["A. Felis catus", "B. Panthera leo", "C. Canis lupus", "D. Ursus arctos"],
+        "answer": "A",
+        "points": 30
+      },
+      {
+        "q": "Which bird has the largest wingspan?",
+        "options": ["A. Bald Eagle", "B. Albatross", "C. Andean Condor", "D. Wandering Albatross"],
+        "answer": "D",
+        "points": 30
+      },
+      {
+        "q": "How many hearts does an octopus have?",
+        "options": ["A. 1", "B. 2", "C. 3", "D. 4"],
+        "answer": "C",
+        "points": 30
+      },
+      {
+        "q": "What is the only continent where giraffes live in the wild?",
+        "options": ["A. Asia", "B. Africa", "C. South America", "D. Australia"],
+        "answer": "B",
+        "points": 30
+      },
+      {
+        "q": "Which marine animal has three hearts and blue blood?",
+        "options": ["A. Octopus", "B. Dolphin", "C. Shark", "D. Jellyfish"],
+        "answer": "A",
+        "points": 30
+      },
+      {
+        "q": "What is the world's largest reptile?",
+        "options": ["A. Anaconda", "B. Komodo Dragon", "C. Saltwater Crocodile", "D. Leatherback Turtle"],
+        "answer": "C",
+        "points": 30
+      },
+      {
+        "q": "Which mammal lays eggs instead of giving live birth?",
+        "options": ["A. Platypus", "B. Kangaroo", "C. Bat", "D. Dolphin"],
+        "answer": "A",
+        "points": 30
+      },
+      {
+        "q": "What is the fastest marine animal?",
+        "options": ["A. Dolphin", "B. Shark", "C. Sailfish", "D. Tuna"],
+        "answer": "C",
+        "points": 30
+      },
+      {
+        "q": "Which animal has the strongest bite force?",
+        "options": ["A. Lion", "B. Crocodile", "C. Great White Shark", "D. Hippopotamus"],
+        "answer": "B",
+        "points": 30
+      },
+      {
+        "q": "What is the only bird that can fly backwards?",
+        "options": ["A. Eagle", "B. Owl", "C. Hummingbird", "D. Parrot"],
+        "answer": "C",
+        "points": 30
+      }
+    ],
+    "Science": [
+      {
+        "q": "What is the speed of light in a vacuum?",
+        "options": ["A. 299,792,458 m/s", "B. 300,000,000 m/s", "C. 299,792 km/s", "D. 186,282 m/s"],
+        "answer": "A",
+        "points": 30
+      },
+      {
+        "q": "What does DNA stand for?",
+        "options": ["A. Deoxyribonucleic Acid", "B. Dinucleic Acid", "C. Deoxyribonucleic Anion", "D. Deoxyribonucleic Atom"],
+        "answer": "A",
+        "points": 30
+      },
+      {
+        "q": "What is the atomic number of carbon?",
+        "options": ["A. 6", "B. 12", "C. 14", "D. 16"],
+        "answer": "A",
+        "points": 30
+      },
+      {
+        "q": "Which planet has the most moons in our solar system?",
+        "options": ["A. Jupiter", "B. Saturn", "C. Uranus", "D. Neptune"],
+        "answer": "B",
+        "points": 30
+      },
+      {
+        "q": "What is the main gas that makes up the Sun?",
+        "options": ["A. Oxygen", "B. Helium", "C. Hydrogen", "D. Nitrogen"],
+        "answer": "C",
+        "points": 30
+      },
+      {
+        "q": "What is the rarest blood type in humans?",
+        "options": ["A. AB-negative", "B. O-negative", "C. B-positive", "D. A-positive"],
+        "answer": "A",
+        "points": 30
+      },
+      {
+        "q": "What particle in an atom has a positive charge?",
+        "options": ["A. Electron", "B. Neutron", "C. Proton", "D. Photon"],
+        "answer": "C",
+        "points": 30
+      },
+      {
+        "q": "What is the study of fossils called?",
+        "options": ["A. Archaeology", "B. Paleontology", "C. Geology", "D. Anthropology"],
+        "answer": "B",
+        "points": 30
+      },
+      {
+        "q": "Which planet has a day longer than its year?",
+        "options": ["A. Mercury", "B. Venus", "C. Mars", "D. Jupiter"],
+        "answer": "B",
+        "points": 30
+      },
+      {
+        "q": "What is the most abundant element in the universe?",
+        "options": ["A. Oxygen", "B. Carbon", "C. Hydrogen", "D. Helium"],
+        "answer": "C",
+        "points": 30
+      }
+    ]
+  }
 }
