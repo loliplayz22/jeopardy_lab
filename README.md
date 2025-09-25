@@ -1,55 +1,57 @@
-###### TRIVIA (FAMILY-DAY) LAB
-is a question-and-answer game built using Python. The goal of the project is to create an interactive game that challenges users with trivia questions, checks their answers, and keeps track of scores in a fun and easy-to-use format.
+# TRIVIA (FAMILY-DAY) LAB
+
+A question-and-answer game built using Python. The goal of the project is to create an interactive game that challenges users with trivia questions, checks their answers, and keeps track of scores in a fun and easy-to-use format.
 
 ---
 
-### 1. WHAT THE PROGRAM DOES
+## 1. What the Program Does
 
-TRIVIA is a terminal that:
-- retrieves users and their names
+TRIVIA is a terminal program that:
+- Retrieves users and their names
 - Loads trivia questions and answers from a structured JSON file
 - Displays individual questions to users, one at a time
 - Tracks the score of each player based on correct or incorrect responses
 - Can serve multiple users (players) and keep track of each player’s score individually
 
-### 2. All trivia content (questions, answers, categories, and point values) is stored in a separate JSON file. 
+---
 
-# Each question in the JSON file includes:
+## 2. Trivia Content
+
+All trivia content (questions, answers, categories, and point values) is stored in a separate JSON file.  
+Each question in the JSON file includes:
 - A unique ID
 - The category 
 - The question text
 - The correct answer
 - A point value
 
+---
+
 ## 3. Team Roles
 
-# Person 1 (Kimberly): Responsible for trivia question data
-- Creates and maintains data/trivia_data.json 
-- Make sure the JSON format is correct and can be read easily
+### Person 1 (Kimberly): Trivia Question Data
+- Creates and maintains `data/trivia_data.json` 
+- Ensures the JSON format is correct and can be read easily
 
-# Person 2 (Grace): Handles user setup in user.py and user_data.json
-- Defines the user class and related functions in src/user.py
-- Manages data/user_data.json, storing player information and scores
-- Ensures users' data is inputted and stored correctly
+### Person 2 (Grace): User Setup
+- Defines the user class and related functions in `src/user.py`
+- Manages `data/user_data.json` (player information and scores)
+- Ensures user data is inputted and stored correctly
 
-# Person 3 (Loli): Handles trivia.py and running the actual game
-- Implements game logic
-- Works in src/trivia.py
-- Handles how rounds are played, asking questions, and updating points.
-- Connects trivia data and system so the game works smoothly
+### Person 3 (Loli): Game Logic
+- Implements game logic in `src/trivia.py`
+- Handles rounds, questions, and scoring
+- Connects trivia data with the system so the game works smoothly
 
-
-
-# Person 4 (Mia): Imports into main file and creates the leaderboard.py file 
-
-- Brings the pieces together.
+### Person 4 (Mia): Integration and Leaderboard
+- Brings all parts together in `src/main.py`
 - Saves user data 
 - Keeps track of high scores
-- Writes the main program in src/main.py that imports all modules and runs the game.
-- Creates src/leaderboard.py to sort and display scores.
-- Makes sure everything is working and the leaderboard works
+- Creates `src/leaderboard.py` to sort and display scores
 
-### 4. Project Structure
+---
+
+## 4. Project Structure
 
 ```
 project/
@@ -64,25 +66,23 @@ project/
 ```
 
 
-### 5. Daily work flow
+---
 
-# Kimberly (Person 1)
-09/24: Finished JSON file, which contains three levels: easy, hard, and medium. Includes two categories of questions, animals and science. I set the input option as a, b, c, d.
+## 5. Daily Workflow
 
-09/25: Work with Loli to make sure that the JSON file can be successfully imported and incorporated with the trivia.py
+### Kimberly (Person 1)
+- **09/24:** Finished JSON file with three levels (easy, medium, hard) and two categories (animals, science). Input options set as a, b, c, d.  
+- **09/25:** Worked with Loli to ensure JSON file can be imported into `trivia.py`.
 
-# Grace (Person 2)
-09/24: Completed all functions in the Class user in the user.py file. Collaborated with teammates to successfully run user functions in main.py. 
+### Grace (Person 2)
+- **09/24:** Completed all functions in the `User` class in `user.py`. Collaborated with teammates to run user functions in `main.py`.  
+- **09/25:** Debugged `user.py` imports and integration.
 
-09/25: Debug to make sure user.py is successfully imported and used in all files, touch base with teammates
+### Loli (Person 3)
+- **09/24:** Wrote the code for `trivia.py` and tested it with teammates.  
+- **09/25:** Met with teammates.
 
-# Loli (Person 3)
-09/24: Wrote the code for trivia.py with functions, and tested if it works with teammates
-
-09/25: Meet with teammates
-
-# Mia (Person 4)
-09/24: I developed the main.py file to integrate all game components and manage the overall flow. I also created the leaderboard.py file to calculate, sort, and display player rankings by points.
-
-09/25: Debug program with teammates
+### Mia (Person 4)
+- **09/24:** Developed `main.py` to integrate all components and created `leaderboard.py` for rankings.  
+- **09/25:** Debugged program with teammates.
 
