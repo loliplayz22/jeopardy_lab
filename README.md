@@ -73,13 +73,16 @@ project/
 
 # Grace (Person 2)
 09/24: Completed all functions in the Class user in the user.py file. Collaborated with teammates to successfully run user functions in main.py. 
+
 09/25: Debug to make sure user.py is successfully imported and used in all files, touch base with teammates
 
 # Loli (Person 3)
 09/24: Wrote the code for trivia.py with functions, and tested if it works with teammates
+
 09/25: Meet with teammates
 
 # Mia (Person 4)
 09/24: I developed the main.py file to integrate all game components and manage the overall flow. I also created the leaderboard.py file to calculate, sort, and display player rankings by points.
+
 09/25: Debug program with teammates
 
