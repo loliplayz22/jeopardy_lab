@@ -54,7 +54,6 @@ TRIVIA is a terminal or web-based application that:
 
 ### 4. Project Structure
 
-```text
 project/
   data/
     user_data.json      # stores user profiles and scores
