@@ -1,3 +1,5 @@
+import os, json, random
+
 # Loads in questions from trivia_data.json
 
 trivia_data_path = os.path.join(os.path.dirname(__file__), "..", "data", "trivia_data.json")
