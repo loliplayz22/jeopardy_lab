@@ -62,4 +62,9 @@ project/
     trivia.py           trivia logic (questions, answers, scoring)
     leaderboard.py      do last, read user_data.json and rank scores
 
+### 5. Daily work flow
+
+-kimberly
+finished JSON file which contains three levels, two category of questions and set the input option as a, b, c, d.
+
 
