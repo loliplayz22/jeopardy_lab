@@ -41,6 +41,16 @@ TRIVIA is a terminal or web-based application that:
 - Handles how rounds are played, asking questions, and updating points.
 - Connects trivia data and system so the game works smoothly
 
+24/sep/2023
+wrote the code for trivia.py with functions like
+def choose_level_category
+def ask_questions
+def play_round 
+and many many more.
+it works 
+i think
+
+
 # Person 4 (Mia): Imports into main file and creates the leaderboard.py file 
 
 - Brings the pieces together.
