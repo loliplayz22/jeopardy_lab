@@ -54,15 +54,17 @@ TRIVIA is a terminal or web-based application that:
 
 ### 4. Project Structure
 
+```text
 project/
   data/
-    user_data.json      stores user profiles and scores
-    trivia_data.json    stores trivia questions
+    user_data.json      # stores user profiles and scores
+    trivia_data.json    # stores trivia questions
   src/
-    main.py             runs the game, calls functions
-    user.py             user class (name, score, etc.)
-    trivia.py           trivia logic (questions, answers, scoring)
-    leaderboard.py      reads user_data.json and ranks scores
+    main.py             # runs the game, calls functions
+    user.py             # user class (name, score, etc.)
+    trivia.py           # trivia logic (questions, answers, scoring)
+    leaderboard.py      # reads user_data.json and ranks scores
+
 
 
 ### 5. Daily work flow
