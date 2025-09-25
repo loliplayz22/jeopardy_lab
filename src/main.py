@@ -1,5 +1,6 @@
 from user import welcome_user, register_users, save_users_to_json, load_users_from_json
 from trivia import load_trivia, choose_level_category, play_round
+from leaderboard import build_leaderboard, print_leaderboard
 
 
 def main():
