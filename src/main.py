@@ -1,6 +1,5 @@
 from user import welcome_user, register_users, save_users_to_json, load_users_from_json
 from trivia import load_trivia, choose_level_category, play_round
-from leaderboard import build_leaderboard, print_leaderboard
 
 
 def main():
@@ -12,6 +11,7 @@ def main():
     # Display trivia questions and set up players
     trivia_data = load_trivia()
     users = register_users()
+    print("First user type:", type(users[0]).__name__)
     if not users:
         print("No players joined. Exiting.")
         return
