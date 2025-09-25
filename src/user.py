@@ -47,7 +47,7 @@ def register_users():
         if first_name.lower() == "done":
             break
         last_name = input("Last name: ").strip()
-        kids_name = input("Kids name (optional): ").strip()
+        kids_name = input("Kids name: ").strip()
 
         new_user = User(first_name, last_name, kids_name)
         users.append(new_user)
