@@ -74,4 +74,6 @@ Loli 24/sep/2023
 wrote the code for trivia.py with functions like def choose_level_category def ask_questionsdef play_round and many many more.it works 
 i think. Met with all teamates and ran main.py and it's srarted to work.
 
+-Mia
+I developed the main.py file to integrate all game components and manage the overall flow. I also created the leaderboard.py file to calculate, sort, and display player rankings by points.
 
