@@ -1,51 +1,45 @@
-import json
-user_data_path = "../data/user_data.json"
+import os, json
 
-# Create User Class
+# Create the data path of user, using os
+user_data_path = os.path.join(
+    os.path.dirname(__file__),  
+    "..",                       
+    "data",
+    "user_data.json"
+)
+
+# Create the User class
 class User:
-    def __init__ (self, first_name, last_name, kids_name):
+    def __init__(self, first_name, last_name, kids_name):
         self.first_name = first_name.strip()
         self.last_name = last_name.strip()
         self.kids_name = kids_name.strip()
-        self.points = 0
-    
-    def full_name (self):
-        return f"{self.first_name} {self.last_name}"
-    
-    def save_user_to_dictonary (self):
+        self.points = 0  
+
+    def full_name(self):
+        return f"{self.first_name} {self.last_name}".strip()
+
+    def save_user_to_dictonary(self):
         return {
             "first_name": self.first_name,
             "last_name": self.last_name,
-            "kids_name": self.kids_name, 
+            "kids_name": self.kids_name,
             "points": self.points
         }
-    
-# Welcome user to the game
-def welcome_user ():
-    print ("———Welcome to the Trivia Game!———–")
+
+# Display function to welcome user to game
+def welcome_user():
+    print("=== Welcome to the Trivia Game! ===")
     while True:
-        ans = input ("Are you ready for Trivia? (y/n) ").strip().lower()
+        ans = input("Are you ready for Trivia? (y/n) ").strip().lower()
         if ans in ("y", "yes"):
             return True
-        elif ans in ("n", "non"):
+        if ans in ("n", "no"):
             return False
-        else:
-            print ("Please type yes or no.")
-
-# Collecting all the players
-#def register_users():
-    users = []
-    print ("Enter your information as a player. When you're finished adding players, type 'Done' for fist name. ")
-    while True:
-        first_name = input ("First name: ").strip()
-        if first_name.lower() == "done":
-            break
-        last_name = input ("Last name: ")
-        kids = input ("Kids name: ")
-        print (f"{first_name} {last_name}, welcome to Trivia!")
-    return users
+        print("Please type y or n.")
 
 def register_users():
+    """Ask for players until the user types 'done' for first name."""
     users = []
     print("\nEnter player info. Type 'done' for first name to stop adding players.")
     while True:
@@ -54,33 +48,34 @@ def register_users():
             break
         last_name = input("Last name: ").strip()
         kids_name = input("Kids name (optional): ").strip()
-        users.append(User(first_name, last_name, kids_name))
+
         new_user = User(first_name, last_name, kids_name)
         users.append(new_user)
-        print(f"{first_name} {last_name}, welcome to Trivia!\n")
-    return users 
+        print(f"{new_user.full_name()}, welcome to Trivia!\n")
+
+    return users
 
 # Save user data to user_data.json
-def save_users_to_json():
-    try: 
-        with open (user_data_path, "r", encoding="utf-8") as f: 
-            return json.load(f)
-    except (FileNotFoundError, json.jsonDecodeError):
+def save_users_to_json(users, level=None, category=None):
+    try:
+        with open(user_data_path, "r", encoding="utf-8") as f:
+            rows = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
         rows = []
 
     for i in users:
-        row = i.dict()
-        row ["level"] = level
-        row ["category"] = category or ""
-        row.append(row)
-# Write back the user data from user_data.json
-    with open (user_data_path, "r", encoding = "utf-8")as f: 
-        return json.dump(rows, f, indent=3)
+        row = i.save_user_to_dictonary()
+        row["level"] = level or ""
+        row["category"] = category or ""
+        rows.append(row)
 
-# Loads all the rows of user_data.json as a dictionary
+    os.makedirs(os.path.dirname(user_data_path), exist_ok=True)
+    with open(user_data_path, "w", encoding="utf-8") as f:
+        json.dump(rows, f, indent=3)
+
 def load_users_from_json():
-    try: 
-         with open (user_data_path, "r", encoding="utf-8") as f: 
+    try:
+        with open(user_data_path, "r", encoding="utf-8") as f:
             return json.load(f)
-    except(FileNotFoundError, json.jsonDecodeError):
+    except (FileNotFoundError, json.JSONDecodeError):
         return []
