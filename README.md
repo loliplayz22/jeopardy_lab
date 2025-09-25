@@ -64,8 +64,8 @@ project/
 
 ### 5. Daily work flow
 
--kimberly
+-Kimberly
 
-finished JSON file which contains three levels, two category of questions and set the input option as a, b, c, d. Tomorrow I will work with Loli to make sure that the JSON file can be successfully imported and incorporated with the program .py
+Finished JSON file which contains three levels, two category of questions and set the input option as a, b, c, d. Tomorrow I will work with Loli to make sure that the JSON file can be successfully imported and incorporated with the program .py
 
 
