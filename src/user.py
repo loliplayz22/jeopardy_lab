@@ -29,14 +29,15 @@ class User:
 
 # Display function to welcome user to game
 def welcome_user():
-    print("=== Welcome to the Trivia Game! ===")
+    print("=== Welcome to the Animal & Science Trivia Game (For Parents)! ===")
     while True:
         ans = input("Are you ready for Trivia? (y/n) ").strip().lower()
         if ans in ("y", "yes"):
             return True
-        if ans in ("n", "no"):
+        elif ans in ("n", "no"):
             return False
-        print("Please type yes or no.")
+        else:
+            print("Please type yes or no.")
 
 def register_users():
     """Ask for players until the user types 'done' for first name."""
