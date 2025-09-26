@@ -203,4 +203,4 @@ def play_round(user, trivia_data, level, category):
 
     if user.kids_name: 
 
-        print(f"/n {user.kids_name} is proud of you, {user.first_name}!")
+        print(f"{user.kids_name} is proud of you, {user.first_name}!")
