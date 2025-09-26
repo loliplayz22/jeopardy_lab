@@ -3,7 +3,7 @@ import os, json, random
 # Loads in questions from trivia_data.json
 
 trivia_data_path = os.path.join(os.path.dirname(__file__), "..", "data", "trivia_data.json")
-
+_used_questions_ids = {}
 
 
 def load_trivia():
@@ -92,56 +92,57 @@ def choose_level_category(trivia_data):
 
     return level, category  
 
+def _get_unused_questions(level, category, all_questions):
+
+    used = _used_questions_ids.setdefault((level, category), set())
+    
+    return [q for q in all_questions if str(q.get("id")) not in used]
+
+def _mark_used(level, category, questions):
+   
+    used = _used_questions_ids.setdefault((level, category), set())
+
+    for q in questions:
+        if "id" in q:
+            used.add(str(q["id"]))
 
 
 
-
-def ask_questions(questions, number_to_ask=5):
-
+def ask_questions(level, category, questions, number_to_ask=5):
+   
     correct_count = 0
 
-    total_to_ask = min(number_to_ask, len(questions))
+    unused = _get_unused_questions(level, category, questions)
 
-    selected = random.sample(questions, k=total_to_ask)
-
-
+    if len(unused) >= number_to_ask:
+        selected = random.sample(unused, k=number_to_ask)
+    else:
+        selected = list(unused)
+        if len(selected) < number_to_ask:
+            remaining_needed = number_to_ask - len(selected)
+            remaining_pool = [q for q in questions if q not in selected]
+            if remaining_pool:
+                selected.extend(random.sample(remaining_pool, k=min(remaining_needed, len(remaining_pool))))
+    _mark_used(level, category, selected)
 
     for qnum, q in enumerate(selected, start=1):
-
         print(f"\nQ{qnum}: {q['q']}")
-
         for idx, text in enumerate(q["options"], start=1):
-
             print(f"{idx}. {text}")
 
-
-
         ans = input("Your answer (1-4): ").strip()
-
         if ans.isdigit():
-
             n = int(ans)
-
             if 1 <= n <= 4:
-
                 if (n - 1) == q["answer"]:
-
                     print("Correct!")
-
                     correct_count += 1
-
                 else:
-
                     print(f"Wrong! Correct answer: {q['options'][q['answer']]}")
-
             else:
-
                 print("Invalid number. Counting as wrong.")
-
         else:
-
             print("Invalid input. Counting as wrong.")
-
     return correct_count
 
 
@@ -184,7 +185,7 @@ def play_round(user, trivia_data, level, category):
 
 
 
-    got = ask_questions(questions, number_to_ask=5)
+    got = ask_questions(level, category, questions, number_to_ask=5)
 
     mult = level_multiplier(level)
 
@@ -202,4 +203,4 @@ def play_round(user, trivia_data, level, category):
 
     if user.kids_name: 
 
-        print(f"{user.kids_name} is proud of you, {user.first_name}!")
+        print(f"/n {user.kids_name} is proud of you, {user.first_name}!")
