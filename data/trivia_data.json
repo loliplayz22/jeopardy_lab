@@ -2,318 +2,738 @@
   "easy": {
     "Animals": [
       {
+        "id": "easy-animals-1",
         "q": "What is the largest mammal in the world?",
         "options": ["Elephant", "Blue Whale", "Giraffe", "Polar Bear"],
         "answer": 1
       },
       {
+        "id": "easy-animals-2",
         "q": "Which animal holds hands while sleeping to prevent them from drifting apart?",
         "options": ["Otters", "Crabs", "Humans", "Sea urchin"],
         "answer": 0
       },
       {
+        "id": "easy-animals-3",
         "q": "What is a baby dog called?",
         "options": ["Puppy", "Cub", "Kitten", "Calf"],
         "answer": 0
       },
       {
-        "q": "Which male animal gives birth instead of the female?",
-        "options": ["Seahorse", "Dog", "Horse", "Rabbit"],
+        "id": "easy-animals-4",
+        "q": "Which animal is known as man's best friend?",
+        "options": ["Dog", "Cat", "Rabbit", "Hamster"],
         "answer": 0
       },
       {
-        "q": "Which animal only poops once a week?",
-        "options": ["Sloths", "Caterpillars", "Pigs", "Horses"],
+        "id": "easy-animals-5",
+        "q": "What do bees make?",
+        "options": ["Honey", "Milk", "Silk", "Wax"],
         "answer": 0
       },
       {
-        "q": "What animal is known for having black and white stripes?",
-        "options": ["Zebra", "Tiger", "Dalmatian", "Panda"],
+        "id": "easy-animals-6",
+        "q": "Which animal says 'moo'?",
+        "options": ["Cow", "Sheep", "Pig", "Goat"],
         "answer": 0
       },
       {
-        "q": "Which bird can mimic human speech?",
-        "options": ["Parrot", "Eagle", "Penguin", "Owl"],
+        "id": "easy-animals-7",
+        "q": "Which animal lives in a shell and moves slowly?",
+        "options": ["Snail", "Dog", "Horse", "Eagle"],
         "answer": 0
       },
       {
-        "q": "What do caterpillars turn into?",
-        "options": ["Butterflies", "Frogs", "Birds", "Fish"],
+        "id": "easy-animals-8",
+        "q": "Which animal is famous for eating bamboo?",
+        "options": ["Panda", "Koala", "Giraffe", "Zebra"],
         "answer": 0
       },
       {
-        "q": "Which animal is the tallest in the world?",
-        "options": ["Giraffe", "Elephant", "Camel", "Ostrich"],
+        "id": "easy-animals-9",
+        "q": "Which animal is known for hopping and having a pouch?",
+        "options": ["Kangaroo", "Leopard", "Wolf", "Moose"],
         "answer": 0
       },
       {
-        "q": "What animal is known for building dams?",
-        "options": ["Beaver", "Rabbit", "Squirrel", "Ant"],
+        "id": "easy-animals-10",
+        "q": "Which sea creature has eight arms?",
+        "options": ["Octopus", "Seal", "Dolphin", "Swordfish"],
         "answer": 0
+      },
+      {
+        "id": "easy-animals-11",
+        "q": "Which animal purrs?",
+        "options": ["Cat", "Dog", "Cow", "Sheep"],
+        "answer": 0
+      },
+      {
+        "id": "easy-animals-12",
+        "q": "Which animal makes a 'quack' sound?",
+        "options": ["Chicken", "Duck", "Turkey", "Goose"],
+        "answer": 1
+      },
+      {
+        "id": "easy-animals-13",
+        "q": "Which farm animal provides wool?",
+        "options": ["Cow", "Goat", "Sheep", "Pig"],
+        "answer": 2
+      },
+      {
+        "id": "easy-animals-14",
+        "q": "Which tall bird cannot fly?",
+        "options": ["Sparrow", "Eagle", "Ostrich", "Swan"],
+        "answer": 2
+      },
+      {
+        "id": "easy-animals-15",
+        "q": "Which big cat has stripes?",
+        "options": ["Lion", "Tiger", "Leopard", "Cheetah"],
+        "answer": 1
+      },
+      {
+        "id": "easy-animals-16",
+        "q": "Which insect builds anthills and lives in colonies?",
+        "options": ["Ant", "Bee", "Wasp", "Beetle"],
+        "answer": 0
+      },
+      {
+        "id": "easy-animals-17",
+        "q": "Which animal is known for spraying a smelly liquid?",
+        "options": ["Skunk", "Rabbit", "Deer", "Fox"],
+        "answer": 0
+      },
+      {
+        "id": "easy-animals-18",
+        "q": "Which animal says 'oink'?",
+        "options": ["Pig", "Horse", "Donkey", "Goat"],
+        "answer": 0
+      },
+      {
+        "id": "easy-animals-19",
+        "q": "Which animal has a trunk?",
+        "options": ["Rhinoceros", "Hippopotamus", "Elephant", "Camel"],
+        "answer": 2
+      },
+      {
+        "id": "easy-animals-20",
+        "q": "Which sea creature has a hard shell and two claws?",
+        "options": ["Seal", "Crab", "Jellyfish", "Tuna"],
+        "answer": 1
       }
     ],
     "Science": [
       {
+        "id": "easy-science-1",
         "q": "What planet is known as the Red Planet?",
         "options": ["Venus", "Mars", "Jupiter", "Saturn"],
         "answer": 1
       },
       {
+        "id": "easy-science-2",
         "q": "What is H2O more commonly known as?",
         "options": ["Oxygen", "Hydrogen", "Water", "Carbon Dioxide"],
         "answer": 2
       },
       {
+        "id": "easy-science-3",
         "q": "What force pulls objects toward the center of the Earth?",
         "options": ["Magnetism", "Gravity", "Electricity", "Friction"],
         "answer": 1
       },
       {
-        "q": "What do plants need from the air to make their own food?",
-        "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
-        "answer": 2
+        "id": "easy-science-4",
+        "q": "How many planets orbit the Sun in our solar system?",
+        "options": ["7", "8", "9", "10"],
+        "answer": 1
       },
       {
-        "q": "What's the power house of a cell?",
-        "options": ["Mitochondria", "Organ", "Membrane", "Cell wall"],
+        "id": "easy-science-5",
+        "q": "What do humans need to breathe?",
+        "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Helium"],
         "answer": 0
       },
       {
-        "q": "What planet is known for having rings?",
-        "options": ["Mars", "Jupiter", "Saturn", "Venus"],
+        "id": "easy-science-6",
+        "q": "What tool is used to measure temperature?",
+        "options": ["Thermometer", "Barometer", "Ruler", "Scale"],
+        "answer": 0
+      },
+      {
+        "id": "easy-science-7",
+        "q": "What is the star at the center of our solar system?",
+        "options": ["Polaris", "Sirius", "The Sun", "Betelgeuse"],
         "answer": 2
       },
       {
-        "q": "What do you call a scientist who studies rocks?",
-        "options": ["Biologist", "Geologist", "Chemist", "Astronomer"],
+        "id": "easy-science-8",
+        "q": "Which state of matter is ice?",
+        "options": ["Solid", "Liquid", "Gas", "Plasma"],
+        "answer": 0
+      },
+      {
+        "id": "easy-science-9",
+        "q": "What do plants take in from the air to make food?",
+        "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Helium"],
         "answer": 1
       },
       {
-        "q": "What gas do plants release that humans breathe?",
-        "options": ["Carbon Dioxide", "Nitrogen", "Oxygen", "Hydrogen"],
+        "id": "easy-science-10",
+        "q": "What part of the body pumps blood?",
+        "options": ["Lungs", "Brain", "Heart", "Stomach"],
         "answer": 2
       },
       {
-        "q": "How many bones are in the human body?",
-        "options": ["106", "206", "306", "406"],
+        "id": "easy-science-11",
+        "q": "Which body part helps you smell?",
+        "options": ["Nose", "Ear", "Eye", "Tongue"],
+        "answer": 0
+      },
+      {
+        "id": "easy-science-12",
+        "q": "What do plants need to grow?",
+        "options": ["Sunlight", "Sugar", "Salt", "Pepper"],
+        "answer": 0
+      },
+      {
+        "id": "easy-science-13",
+        "q": "Which planet do we live on?",
+        "options": ["Mars", "Jupiter", "Earth", "Venus"],
+        "answer": 2
+      },
+      {
+        "id": "easy-science-14",
+        "q": "Which gas do humans breathe in for energy?",
+        "options": ["Oxygen", "Carbon Dioxide", "Helium", "Hydrogen"],
+        "answer": 0
+      },
+      {
+        "id": "easy-science-15",
+        "q": "At sea level, water boils at what temperature (°C)?",
+        "options": ["0", "50", "100", "150"],
+        "answer": 2
+      },
+      {
+        "id": "easy-science-16",
+        "q": "What tool helps us see far objects in the sky?",
+        "options": ["Microscope", "Telescope", "Binoculars", "Periscope"],
         "answer": 1
       },
       {
-        "q": "What is the closest planet to the Sun?",
-        "options": ["Venus", "Earth", "Mars", "Mercury"],
-        "answer": 3
+        "id": "easy-science-17",
+        "q": "What are baby frogs called?",
+        "options": ["Larvae", "Tadpoles", "Fry", "Chicks"],
+        "answer": 1
+      },
+      {
+        "id": "easy-science-18",
+        "q": "What shape is Earth closest to?",
+        "options": ["Cube", "Pyramid", "Sphere", "Cone"],
+        "answer": 2
+      },
+      {
+        "id": "easy-science-19",
+        "q": "What is the center of an atom called?",
+        "options": ["Electron", "Nucleus", "Proton", "Neutron"],
+        "answer": 1
+      },
+      {
+        "id": "easy-science-20",
+        "q": "Which part of a plant takes in water from the soil?",
+        "options": ["Leaves", "Stem", "Roots", "Flowers"],
+        "answer": 2
       }
     ]
   },
   "medium": {
     "Animals": [
       {
+        "id": "medium-animals-1",
         "q": "What is the only mammal capable of true flight?",
         "options": ["Flying Squirrel", "Bat", "Colugo", "Penguin"],
         "answer": 1
       },
       {
+        "id": "medium-animals-2",
         "q": "Which animal has the longest lifespan?",
         "options": ["African Elephant", "Galapagos Tortoise", "Bowhead Whale", "Greenland Shark"],
         "answer": 3
       },
       {
+        "id": "medium-animals-3",
         "q": "What is a group of lions called?",
         "options": ["Herd", "Pack", "Pride", "Flock"],
         "answer": 2
       },
       {
-        "q": "Which bird is known for its beautiful tail feathers that can fan out?",
-        "options": ["Eagle", "Peacock", "Flamingo", "Parrot"],
+        "id": "medium-animals-4",
+        "q": "Which penguin species is the tallest?",
+        "options": ["King Penguin", "Emperor Penguin", "Adélie Penguin", "Gentoo Penguin"],
         "answer": 1
       },
       {
-        "q": "What is the fastest land animal?",
-        "options": ["Cheetah", "Lion", "Gazelle", "Horse"],
-        "answer": 0
-      },
-      {
-        "q": "Which animal can change its skin color to blend in?",
-        "options": ["Chameleon", "Frog", "Snake", "Lizard"],
-        "answer": 0
-      },
-      {
-        "q": "What is a baby kangaroo called?",
-        "options": ["Calf", "Pup", "Joey", "Cub"],
+        "id": "medium-animals-5",
+        "q": "Which animal often has a prehensile tail used for grasping?",
+        "options": ["Cheetah", "Giraffe", "Spider Monkey", "Polar Bear"],
         "answer": 2
       },
       {
-        "q": "Which marine animal has eight arms?",
-        "options": ["Squid", "Octopus", "Starfish", "Jellyfish"],
+        "id": "medium-animals-6",
+        "q": "What is the largest species of deer?",
+        "options": ["White-tailed Deer", "Mule Deer", "Moose", "Red Deer"],
+        "answer": 2
+      },
+      {
+        "id": "medium-animals-7",
+        "q": "Which mammal is the only marsupial native to North America?",
+        "options": ["Koala", "Tasmanian Devil", "Virginia Opossum", "Kangaroo"],
+        "answer": 2
+      },
+      {
+        "id": "medium-animals-8",
+        "q": "Which animal has the longest migration of any mammal?",
+        "options": ["Caribou", "Blue Whale", "Humpback Whale", "Monarch Butterfly"],
+        "answer": 2
+      },
+      {
+        "id": "medium-animals-9",
+        "q": "Which reptile can detach its tail as a defense mechanism?",
+        "options": ["Crocodile", "Iguana", "Snake", "Turtle"],
         "answer": 1
       },
       {
-        "q": "What is the largest bird in the world?",
-        "options": ["Eagle", "Ostrich", "Albatross", "Emu"],
+        "id": "medium-animals-10",
+        "q": "What is a baby swan called?",
+        "options": ["Gosling", "Cygnet", "Chick", "Poult"],
         "answer": 1
       },
       {
-        "q": "Which animal hibernates during winter?",
-        "options": ["Bear", "Deer", "Wolf", "Rabbit"],
+        "id": "medium-animals-11",
+        "q": "What is the largest rodent in the world?",
+        "options": ["Beaver", "Capybara", "Porcupine", "Agouti"],
+        "answer": 1
+      },
+      {
+        "id": "medium-animals-12",
+        "q": "Which bird lays the largest eggs?",
+        "options": ["Emu", "Ostrich", "Kiwi", "Albatross"],
+        "answer": 1
+      },
+      {
+        "id": "medium-animals-13",
+        "q": "Which animal is known for 'playing dead' as a defense?",
+        "options": ["Fox", "Opossum", "Badger", "Hare"],
+        "answer": 1
+      },
+      {
+        "id": "medium-animals-14",
+        "q": "What do camels primarily store in their humps?",
+        "options": ["Water", "Fat", "Air", "Milk"],
+        "answer": 1
+      },
+      {
+        "id": "medium-animals-15",
+        "q": "Which penguin species lives near the equator?",
+        "options": ["Emperor", "Galápagos", "Chinstrap", "Gentoo"],
+        "answer": 1
+      },
+      {
+        "id": "medium-animals-16",
+        "q": "Which flightless bird is native to New Zealand?",
+        "options": ["Kiwi", "Cassowary", "Emu", "Rhea"],
         "answer": 0
+      },
+      {
+        "id": "medium-animals-17",
+        "q": "Which marine mammal uses echolocation to navigate?",
+        "options": ["Seal", "Sea lion", "Dolphin", "Walrus"],
+        "answer": 2
+      },
+      {
+        "id": "medium-animals-18",
+        "q": "What is a male deer called?",
+        "options": ["Bull", "Ram", "Buck", "Boar"],
+        "answer": 2
+      },
+      {
+        "id": "medium-animals-19",
+        "q": "Which animal can sleep while standing?",
+        "options": ["Horse", "Tiger", "Whale", "Hippopotamus"],
+        "answer": 0
+      },
+      {
+        "id": "medium-animals-20",
+        "q": "What is a group of crows called?",
+        "options": ["Pack", "Flock", "Murder", "Colony"],
+        "answer": 2
       }
     ],
     "Science": [
       {
+        "id": "medium-science-1",
         "q": "What is the chemical symbol for gold?",
         "options": ["Go", "Gd", "Au", "Ag"],
         "answer": 2
       },
       {
+        "id": "medium-science-2",
         "q": "How many elements are in the periodic table?",
         "options": ["108", "118", "128", "138"],
         "answer": 1
       },
       {
+        "id": "medium-science-3",
         "q": "What is the closest star to Earth?",
         "options": ["Proxima Centauri", "Sirius", "Alpha Centauri", "The Sun"],
         "answer": 3
       },
       {
-        "q": "What gas do humans breathe out that plants use?",
-        "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+        "id": "medium-science-4",
+        "q": "What process do plants use to make their own food?",
+        "options": ["Respiration", "Fermentation", "Photosynthesis", "Transpiration"],
         "answer": 2
       },
       {
-        "q": "What is the hardest natural substance on Earth?",
-        "options": ["Gold", "Iron", "Diamond", "Platinum"],
-        "answer": 2
-      },
-      {
-        "q": "What is the main gas found in Earth's atmosphere?",
-        "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
-        "answer": 2
-      },
-      {
-        "q": "What planet is known as the 'Evening Star'?",
-        "options": ["Mars", "Jupiter", "Venus", "Saturn"],
-        "answer": 2
-      },
-      {
-        "q": "What is the study of weather called?",
-        "options": ["Geology", "Meteorology", "Biology", "Astronomy"],
+        "id": "medium-science-5",
+        "q": "What instrument is used to measure atmospheric pressure?",
+        "options": ["Thermometer", "Barometer", "Hygrometer", "Anemometer"],
         "answer": 1
       },
       {
-        "q": "How many planets in our solar system have rings?",
-        "options": ["1", "2", "3", "4"],
-        "answer": 3
+        "id": "medium-science-6",
+        "q": "Which part of the cell contains most of the genetic material?",
+        "options": ["Mitochondria", "Ribosome", "Nucleus", "Golgi Apparatus"],
+        "answer": 2
       },
       {
-        "q": "What is the largest organ in the human body?",
-        "options": ["Liver", "Brain", "Skin", "Heart"],
+        "id": "medium-science-7",
+        "q": "Which state of matter has a definite volume but no definite shape?",
+        "options": ["Solid", "Liquid", "Gas", "Plasma"],
+        "answer": 1
+      },
+      {
+        "id": "medium-science-8",
+        "q": "What is the SI unit of force?",
+        "options": ["Pascal", "Newton", "Joule", "Watt"],
+        "answer": 1
+      },
+      {
+        "id": "medium-science-9",
+        "q": "Which gas makes up the majority of Earth's atmosphere?",
+        "options": ["Oxygen", "Nitrogen", "Argon", "Carbon Dioxide"],
+        "answer": 1
+      },
+      {
+        "id": "medium-science-10",
+        "q": "What is the primary organ for detoxification in the human body?",
+        "options": ["Kidney", "Liver", "Lung", "Spleen"],
+        "answer": 1
+      },
+      {
+        "id": "medium-science-11",
+        "q": "What is the SI unit of energy?",
+        "options": ["Watt", "Pascal", "Joule", "Newton"],
         "answer": 2
+      },
+      {
+        "id": "medium-science-12",
+        "q": "During photosynthesis, which gas do plants release?",
+        "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Methane"],
+        "answer": 0
+      },
+      {
+        "id": "medium-science-13",
+        "q": "What is the process called when a liquid changes to a gas at the surface?",
+        "options": ["Condensation", "Evaporation", "Freezing", "Sublimation"],
+        "answer": 1
+      },
+      {
+        "id": "medium-science-14",
+        "q": "Which blood cells carry oxygen?",
+        "options": ["Platelets", "Plasma", "Red blood cells", "White blood cells"],
+        "answer": 2
+      },
+      {
+        "id": "medium-science-15",
+        "q": "Which planet is closest to the Sun?",
+        "options": ["Venus", "Mercury", "Earth", "Mars"],
+        "answer": 1
+      },
+      {
+        "id": "medium-science-16",
+        "q": "Which layer makes up most of Earth's volume?",
+        "options": ["Crust", "Core", "Mantle", "Lithosphere"],
+        "answer": 2
+      },
+      {
+        "id": "medium-science-17",
+        "q": "What does pH measure?",
+        "options": ["Temperature", "Acidity/Basicity", "Salinity", "Pressure"],
+        "answer": 1
+      },
+      {
+        "id": "medium-science-18",
+        "q": "In SI units, speed is measured in what?",
+        "options": ["m/s", "km/h", "mph", "ft/s"],
+        "answer": 0
+      },
+      {
+        "id": "medium-science-19",
+        "q": "What instrument is used to measure wind speed?",
+        "options": ["Barometer", "Anemometer", "Hygrometer", "Thermometer"],
+        "answer": 1
+      },
+      {
+        "id": "medium-science-20",
+        "q": "What is the charge of an electron?",
+        "options": ["Positive", "Negative", "Neutral", "Depends"],
+        "answer": 1
       }
     ]
   },
   "hard": {
     "Animals": [
       {
+        "id": "hard-animals-1",
         "q": "What is the scientific name for the common domestic cat?",
         "options": ["Felis catus", "Panthera leo", "Canis lupus", "Ursus arctos"],
         "answer": 0
       },
       {
+        "id": "hard-animals-2",
         "q": "Which bird has the largest wingspan?",
         "options": ["Bald Eagle", "Albatross", "Andean Condor", "Wandering Albatross"],
         "answer": 3
       },
       {
+        "id": "hard-animals-3",
         "q": "How many hearts does an octopus have?",
         "options": ["1", "2", "3", "4"],
         "answer": 2
       },
       {
-        "q": "What is the only continent where giraffes live in the wild?",
-        "options": ["Asia", "Africa", "South America", "Australia"],
+        "id": "hard-animals-4",
+        "q": "What is the largest species of big cat?",
+        "options": ["Lion", "Tiger", "Jaguar", "Leopard"],
         "answer": 1
       },
       {
-        "q": "Which marine animal has three hearts and blue blood?",
-        "options": ["Octopus", "Dolphin", "Shark", "Jellyfish"],
-        "answer": 0
-      },
-      {
-        "q": "What is the world's largest reptile?",
-        "options": ["Anaconda", "Komodo Dragon", "Saltwater Crocodile", "Leatherback Turtle"],
+        "id": "hard-animals-5",
+        "q": "Whales belong to which scientific order?",
+        "options": ["Primates", "Carnivora", "Cetacea", "Artiodactyla"],
         "answer": 2
       },
       {
-        "q": "Which mammal lays eggs instead of giving live birth?",
-        "options": ["Platypus", "Kangaroo", "Bat", "Dolphin"],
-        "answer": 0
-      },
-      {
-        "q": "What is the fastest marine animal?",
-        "options": ["Dolphin", "Shark", "Sailfish", "Tuna"],
-        "answer": 2
-      },
-      {
-        "q": "Which animal has the strongest bite force?",
-        "options": ["Lion", "Crocodile", "Great White Shark", "Hippopotamus"],
+        "id": "hard-animals-6",
+        "q": "What is the only venomous primate?",
+        "options": ["Capuchin Monkey", "Slow Loris", "Chimpanzee", "Howler Monkey"],
         "answer": 1
       },
       {
-        "q": "What is the only bird that can fly backwards?",
-        "options": ["Eagle", "Owl", "Hummingbird", "Parrot"],
+        "id": "hard-animals-7",
+        "q": "Which mammal has the longest known gestation period?",
+        "options": ["Blue Whale", "Giraffe", "African Elephant", "Rhinoceros"],
         "answer": 2
+      },
+      {
+        "id": "hard-animals-8",
+        "q": "Which animal has the highest recorded blood pressure among mammals?",
+        "options": ["Giraffe", "Elephant", "Hippopotamus", "Rhinoceros"],
+        "answer": 0
+      },
+      {
+        "id": "hard-animals-9",
+        "q": "What is the term for animals that are active during twilight?",
+        "options": ["Diurnal", "Nocturnal", "Crepuscular", "Cathemeral"],
+        "answer": 2
+      },
+      {
+        "id": "hard-animals-10",
+        "q": "Which shark species is ovoviviparous, retaining eggs that hatch inside the mother?",
+        "options": ["Great White", "Hammerhead", "Sand Tiger Shark", "Whale Shark"],
+        "answer": 2
+      },
+      {
+        "id": "hard-animals-11",
+        "q": "Which male mammal has venomous spurs on its hind legs?",
+        "options": ["Echidna", "Platypus", "Beaver", "Mole"],
+        "answer": 1
+      },
+      {
+        "id": "hard-animals-12",
+        "q": "What is the term for shedding an exoskeleton to grow?",
+        "options": ["Hibernation", "Molting", "Estivation", "Torpor"],
+        "answer": 1
+      },
+      {
+        "id": "hard-animals-13",
+        "q": "What is the largest living lizard?",
+        "options": ["Komodo dragon", "Monitor lizard", "Iguana", "Gila monster"],
+        "answer": 0
+      },
+      {
+        "id": "hard-animals-14",
+        "q": "Which bird reaches the highest speeds in a hunting dive?",
+        "options": ["Golden eagle", "Peregrine falcon", "Swift", "Albatross"],
+        "answer": 1
+      },
+      {
+        "id": "hard-animals-15",
+        "q": "How many stomach chambers does a typical ruminant like a cow have?",
+        "options": ["2", "3", "4", "5"],
+        "answer": 2
+      },
+      {
+        "id": "hard-animals-16",
+        "q": "Which carnivorous marsupial is native to Tasmania?",
+        "options": ["Koala", "Wombat", "Tasmanian devil", "Quokka"],
+        "answer": 2
+      },
+      {
+        "id": "hard-animals-17",
+        "q": "Which Arctic animal changes fur color to white in winter?",
+        "options": ["Arctic fox", "Moose", "Wolf", "Lynx"],
+        "answer": 0
+      },
+      {
+        "id": "hard-animals-18",
+        "q": "What is the genus of chimpanzees?",
+        "options": ["Homo", "Pan", "Gorilla", "Pongo"],
+        "answer": 1
+      },
+      {
+        "id": "hard-animals-19",
+        "q": "What is the largest species of toothed whale?",
+        "options": ["Blue whale", "Sperm whale", "Orca", "Narwhal"],
+        "answer": 1
+      },
+      {
+        "id": "hard-animals-20",
+        "q": "Which animal is known for cube-shaped droppings?",
+        "options": ["Wombat", "Panda", "Beaver", "Hyrax"],
+        "answer": 0
       }
     ],
     "Science": [
       {
+        "id": "hard-science-1",
         "q": "What is the speed of light in a vacuum?",
         "options": ["299,792,458 m/s", "300,000,000 m/s", "299,792 km/s", "186,282 m/s"],
         "answer": 0
       },
       {
+        "id": "hard-science-2",
         "q": "What does DNA stand for?",
         "options": ["Deoxyribonucleic Acid", "Dinucleic Acid", "Deoxyribonucleic Anion", "Deoxyribonucleic Atom"],
         "answer": 0
       },
       {
+        "id": "hard-science-3",
         "q": "What is the atomic number of carbon?",
         "options": ["6", "12", "14", "16"],
         "answer": 0
       },
       {
-        "q": "Which planet has the most moons in our solar system?",
-        "options": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+        "id": "hard-science-4",
+        "q": "Which gas law states that the pressure of a gas is inversely proportional to its volume at constant temperature?",
+        "options": ["Charles's Law", "Boyle's Law", "Avogadro's Law", "Gay-Lussac's Law"],
         "answer": 1
       },
       {
-        "q": "What is the main gas that makes up the Sun?",
-        "options": ["Oxygen", "Helium", "Hydrogen", "Nitrogen"],
-        "answer": 2
-      },
-      {
-        "q": "What is the rarest blood type in humans?",
-        "options": ["AB-negative", "O-negative", "B-positive", "A-positive"],
+        "id": "hard-science-5",
+        "q": "Planck's constant is approximately which of the following?",
+        "options": ["6.626×10^-34 J·s", "3.00×10^8 J·s", "1.602×10^-19 J·s", "9.81 m/s^2"],
         "answer": 0
       },
       {
-        "q": "What particle in an atom has a positive charge?",
-        "options": ["Electron", "Neutron", "Proton", "Photon"],
-        "answer": 2
-      },
-      {
-        "q": "What is the study of fossils called?",
-        "options": ["Archaeology", "Paleontology", "Geology", "Anthropology"],
+        "id": "hard-science-6",
+        "q": "What is the pH of a neutral aqueous solution at 25°C?",
+        "options": ["0", "7", "14", "4"],
         "answer": 1
       },
       {
-        "q": "Which planet has a day longer than its year?",
-        "options": ["Mercury", "Venus", "Mars", "Jupiter"],
+        "id": "hard-science-7",
+        "q": "Who proposed the uncertainty principle in quantum mechanics?",
+        "options": ["Albert Einstein", "Werner Heisenberg", "Niels Bohr", "Erwin Schrödinger"],
         "answer": 1
       },
       {
-        "q": "What is the most abundant element in the universe?",
-        "options": ["Oxygen", "Carbon", "Hydrogen", "Helium"],
+        "id": "hard-science-8",
+        "q": "Which thermodynamic potential is minimized at constant temperature and pressure?",
+        "options": ["Helmholtz free energy", "Gibbs free energy", "Internal energy", "Enthalpy"],
+        "answer": 1
+      },
+      {
+        "id": "hard-science-9",
+        "q": "Which particle mediates the electromagnetic force in the Standard Model?",
+        "options": ["Neutrino", "Gluon", "Photon", "W boson"],
         "answer": 2
+      },
+      {
+        "id": "hard-science-10",
+        "q": "What is the SI base unit for the amount of substance?",
+        "options": ["Mole", "Candela", "Kelvin", "Ampere"],
+        "answer": 0
+      },
+      {
+        "id": "hard-science-11",
+        "q": "What is Avogadro's number approximately?",
+        "options": ["6.022×10^23", "3.00×10^8", "1.60×10^-19", "9.81"],
+        "answer": 0
+      },
+      {
+        "id": "hard-science-12",
+        "q": "Which equation relates a photon's energy to its frequency?",
+        "options": ["E = mc^2", "p = mv", "E = hf", "PV = nRT"],
+        "answer": 2
+      },
+      {
+        "id": "hard-science-13",
+        "q": "What is the SI unit of electrical resistance?",
+        "options": ["Ohm", "Volt", "Ampere", "Tesla"],
+        "answer": 0
+      },
+      {
+        "id": "hard-science-14",
+        "q": "What is the term for the bending of light by gravity near massive objects?",
+        "options": ["Photoelectric effect", "Gravitational lensing", "Doppler effect", "Hall effect"],
+        "answer": 1
+      },
+      {
+        "id": "hard-science-15",
+        "q": "How many SI base units are there?",
+        "options": ["6", "7", "8", "9"],
+        "answer": 1
+      },
+      {
+        "id": "hard-science-16",
+        "q": "What is the heaviest naturally occurring element by atomic number?",
+        "options": ["Uranium", "Plutonium", "Thorium", "Lead"],
+        "answer": 0
+      },
+      {
+        "id": "hard-science-17",
+        "q": "Which bond involves unequal sharing of electrons?",
+        "options": ["Ionic", "Metallic", "Polar covalent", "Hydrogen"],
+        "answer": 2
+      },
+      {
+        "id": "hard-science-18",
+        "q": "The time derivative of position is called what?",
+        "options": ["Acceleration", "Velocity", "Jerk", "Momentum"],
+        "answer": 1
+      },
+      {
+        "id": "hard-science-19",
+        "q": "Which organelle modifies, sorts, and packages proteins?",
+        "options": ["Lysosome", "Mitochondrion", "Golgi apparatus", "Ribosome"],
+        "answer": 2
+      },
+      {
+        "id": "hard-science-20",
+        "q": "Which constant is the ratio of a circle's circumference to its diameter?",
+        "options": ["e", "π (pi)", "φ (phi)", "γ (gamma)"],
+        "answer": 1
       }
     ]
   }
